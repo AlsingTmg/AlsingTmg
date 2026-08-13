@@ -1,52 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Alsing Thing" />
-        <meta name="author" content="Alsing Thing" />
-        <title>Alsing Thing Official Website</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/jpg" href="alsing.jpg" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="alsing.jpg" alt="Alsing" />
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Alsing Thing</h1>
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Programmer</p>
-                <nav>
-                    
-                    <a href="https://www.facebook.com/Alsing.Thing"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://instagram.com/alsing07?igshid=NDk5N2NlZjQ="><i class="fab fa-instagram"></i></a>
-                </nav>
-                <p></p>
-              
-               
-            </div>
-        </header>
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; 2023 Alsing Thing</small></div>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AL // Penetration Tester</title>
+<meta name="description" content="Portfolio of AL, offensive security engineer & penetration tester.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- decorative scanline overlay -->
+<div class="scanline" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="logo">root@<span class="logo-accent">Al</span><span class="cursor">_</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#certifications" class="nav-link">Certs</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">// offensive security engineer</p>
+        <h1>Finding the door<br>before someone<br>picks the lock.</h1>
+        <p class="hero-sub">I break into networks, applications and Active Directory environments on purpose &mdash; so the people who'd do it without permission come up empty.</p>
+        <div class="hero-cta">
+          <a href="#certifications" class="btn btn-primary">View certifications</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+      </div>
+
+      <div class="terminal" id="terminal">
+        <div class="terminal-bar">
+          <span class="dot dot-red"></span>
+          <span class="dot dot-yellow"></span>
+          <span class="dot dot-green"></span>
+          <span class="terminal-title">Al@kali: ~</span>
+        </div>
+        <div class="terminal-body" id="terminalBody" aria-live="polite">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="section-inner about-grid">
+      <div class="section-head">
+        <p class="eyebrow">// about</p>
+        <h2>Attacker mindset,<br>defender's intent.</h2>
+      </div>
+
+      <div class="about-body">
+        <p>I'm AL, a penetration tester focused on internal networks, web applications and Active Directory attack paths. My job is to simulate real adversaries &mdash; enumerate, exploit, escalate and pivot &mdash; then hand over a report a defender can actually act on.</p>
+        <p>Most of my work sits at the intersection of red team tradecraft and practical remediation advice: I care less about a flashy exploit chain and more about whether the fix actually closes the gap.</p>
+
+        <div class="stat-row">
+          <div class="stat">
+            <span class="stat-num" data-count="40">0</span>
+            <span class="stat-label">engagements led</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="30">0</span>
+            <span class="stat-label">critical findings</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="3">0</span>
+            <span class="stat-label">years in the field</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section section-alt" id="skills">
+    <div class="section-inner">
+      <div class="section-head">
+        <p class="eyebrow">// skill matrix</p>
+        <h2>What I bring to an engagement.</h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-card" data-percent="92">
+          <div class="skill-top">
+            <span class="skill-name">Web Pentesting</span>
+            <span class="skill-percent">92%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill"></div></div>
+          <p class="skill-desc">OWASP Top 10, auth &amp; session flaws, API abuse, manual exploitation.</p>
+        </div>
+
+        <div class="skill-card" data-percent="88">
+          <div class="skill-top">
+            <span class="skill-name">Networking</span>
+            <span class="skill-percent">88%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill"></div></div>
+          <p class="skill-desc">TCP/IP internals, segmentation review, protocol analysis, pivoting.</p>
+        </div>
+
+        <div class="skill-card" data-percent="85">
+          <div class="skill-top">
+            <span class="skill-name">Programming</span>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill"></div></div>
+          <p class="skill-desc">Python &amp; Bash tooling, exploit PoCs, automation of repetitive recon.</p>
+        </div>
+
+        <div class="skill-card" data-percent="90">
+          <div class="skill-top">
+            <span class="skill-name">Active Directory</span>
+            <span class="skill-percent">90%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill"></div></div>
+          <p class="skill-desc">Kerberoasting, ACL abuse, lateral movement, domain privilege escalation.</p>
+        </div>
+
+        <div class="skill-card" data-percent="80">
+          <div class="skill-top">
+            <span class="skill-name">Linux &amp; Windows Internals</span>
+            <span class="skill-percent">80%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill"></div></div>
+          <p class="skill-desc">Privilege escalation, persistence mechanics, host-based enumeration.</p>
+        </div>
+
+        <div class="skill-card" data-percent="78">
+          <div class="skill-top">
+            <span class="skill-name">Reporting &amp; OSINT</span>
+            <span class="skill-percent">78%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill"></div></div>
+          <p class="skill-desc">Recon methodology, risk-rated writeups clients and execs can use.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATIONS ============ -->
+  <section class="section" id="certifications">
+    <div class="section-inner">
+      <div class="section-head">
+        <p class="eyebrow">// credentials</p>
+        <h2>Certifications</h2>
+      </div>
+
+      <div class="cert-grid">
+
+        <div class="cert-card">
+          <div class="cert-id">CCNA</div>
+          <h3>Cisco Certified Network Associate</h3>
+          <p class="cert-issuer">Cisco</p>
+          <span class="cert-tag">networking</span>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-id">PY</div>
+          <h3>Python for Security &amp; Automation</h3>
+          <p class="cert-issuer">Certification Body</p>
+          <span class="cert-tag">programming</span>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-id">CEH</div>
+          <h3>Certified Ethical Hacker</h3>
+          <p class="cert-issuer">EC-Council</p>
+          <span class="cert-tag">offensive security</span>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-id">THM</div>
+          <h3>Junior Penetration Tester</h3>
+          <p class="cert-issuer">TryHackMe</p>
+          <span class="cert-tag">pentesting</span>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-id">HTB</div>
+          <h3>Web Pentesting</h3>
+          <p class="cert-issuer">Hack The Box Academy</p>
+          <span class="cert-tag">web security</span>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-id">NM</div>
+          <h3>Nmap: Network Scanning &amp; Discovery</h3>
+          <p class="cert-issuer">Certification Body</p>
+          <span class="cert-tag">networking</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section-alt" id="contact">
+    <div class="section-inner contact-grid">
+      <div class="section-head">
+        <p class="eyebrow">// get in touch</p>
+        <h2>Have a target scope<br>in mind?</h2>
+        <p class="contact-sub">Open to penetration testing engagements, security assessments and consulting work. Reach out through any of the channels below or use the form.</p>
+
+        <ul class="contact-list">
+          <li>
+            <span class="contact-label">email</span>
+            <a href="mailto:alsingtmg3@gmail.com">alsingtmg3@gmail.com</a>
+          </li>
+          <li>
+            <span class="contact-label">location</span>
+            <span>Remote / available worldwide</span>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+          <span class="form-error" id="nameError"></span>
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="jane@company.com" required>
+          <span class="form-error" id="emailError"></span>
+        </div>
+
+        <div class="form-row">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Engagement scope, quote request...">
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me a bit about what you need tested." required></textarea>
+          <span class="form-error" id="messageError"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-full">
+          <span id="submitLabel">Send message</span>
+        </button>
+
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <a href="#top" class="logo logo-small">root@<span class="logo-accent">Al</span></a>
+    <p class="footer-note">&copy; <span id="year"></span> AL. Tested with permission only.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
 </html>
